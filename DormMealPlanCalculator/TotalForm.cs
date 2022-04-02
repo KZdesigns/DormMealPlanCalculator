@@ -16,5 +16,15 @@ namespace DormMealPlanCalculator
         {
             InitializeComponent();
         }
+
+        private void goBackBtn_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void saveBtn_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

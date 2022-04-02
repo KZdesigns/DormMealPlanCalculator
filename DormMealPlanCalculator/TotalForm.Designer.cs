@@ -30,9 +30,9 @@
         {
             this.totalChargesFormLabel = new System.Windows.Forms.Label();
             this.totalChargesGroupBox = new System.Windows.Forms.GroupBox();
-            this.selectedDromLabel = new System.Windows.Forms.Label();
-            this.selectedMealPlanLabel = new System.Windows.Forms.Label();
             this.totalLabel = new System.Windows.Forms.Label();
+            this.selectedMealPlanLabel = new System.Windows.Forms.Label();
+            this.selectedDromLabel = new System.Windows.Forms.Label();
             this.goBackBtn = new System.Windows.Forms.Button();
             this.saveBtn = new System.Windows.Forms.Button();
             this.totalChargesGroupBox.SuspendLayout();
@@ -59,50 +59,49 @@
             this.totalChargesGroupBox.TabStop = false;
             this.totalChargesGroupBox.Text = "Student Total Per Semester";
             // 
-            // selectedDromLabel
+            // totalLabel
             // 
-            this.selectedDromLabel.AutoSize = true;
-            this.selectedDromLabel.Location = new System.Drawing.Point(64, 30);
-            this.selectedDromLabel.Name = "selectedDromLabel";
-            this.selectedDromLabel.Size = new System.Drawing.Size(35, 13);
-            this.selectedDromLabel.TabIndex = 0;
-            this.selectedDromLabel.Text = "label2";
+            this.totalLabel.AutoSize = true;
+            this.totalLabel.Location = new System.Drawing.Point(64, 109);
+            this.totalLabel.Name = "totalLabel";
+            this.totalLabel.Size = new System.Drawing.Size(0, 13);
+            this.totalLabel.TabIndex = 2;
             // 
             // selectedMealPlanLabel
             // 
             this.selectedMealPlanLabel.AutoSize = true;
             this.selectedMealPlanLabel.Location = new System.Drawing.Point(64, 67);
             this.selectedMealPlanLabel.Name = "selectedMealPlanLabel";
-            this.selectedMealPlanLabel.Size = new System.Drawing.Size(35, 13);
+            this.selectedMealPlanLabel.Size = new System.Drawing.Size(0, 13);
             this.selectedMealPlanLabel.TabIndex = 1;
-            this.selectedMealPlanLabel.Text = "label3";
             // 
-            // totalLabel
+            // selectedDromLabel
             // 
-            this.totalLabel.AutoSize = true;
-            this.totalLabel.Location = new System.Drawing.Point(64, 109);
-            this.totalLabel.Name = "totalLabel";
-            this.totalLabel.Size = new System.Drawing.Size(35, 13);
-            this.totalLabel.TabIndex = 2;
-            this.totalLabel.Text = "label4";
+            this.selectedDromLabel.AutoSize = true;
+            this.selectedDromLabel.Location = new System.Drawing.Point(64, 30);
+            this.selectedDromLabel.Name = "selectedDromLabel";
+            this.selectedDromLabel.Size = new System.Drawing.Size(0, 13);
+            this.selectedDromLabel.TabIndex = 0;
             // 
             // goBackBtn
             // 
-            this.goBackBtn.Location = new System.Drawing.Point(266, 278);
+            this.goBackBtn.Location = new System.Drawing.Point(201, 278);
             this.goBackBtn.Name = "goBackBtn";
             this.goBackBtn.Size = new System.Drawing.Size(75, 23);
             this.goBackBtn.TabIndex = 2;
             this.goBackBtn.Text = "Go Back";
             this.goBackBtn.UseVisualStyleBackColor = true;
+            this.goBackBtn.Click += new System.EventHandler(this.goBackBtn_Click);
             // 
             // saveBtn
             // 
-            this.saveBtn.Location = new System.Drawing.Point(347, 278);
+            this.saveBtn.Location = new System.Drawing.Point(282, 278);
             this.saveBtn.Name = "saveBtn";
-            this.saveBtn.Size = new System.Drawing.Size(75, 23);
+            this.saveBtn.Size = new System.Drawing.Size(125, 23);
             this.saveBtn.TabIndex = 3;
-            this.saveBtn.Text = "Save";
+            this.saveBtn.Text = "Save and Exit";
             this.saveBtn.UseVisualStyleBackColor = true;
+            this.saveBtn.Click += new System.EventHandler(this.saveBtn_Click);
             // 
             // TotalForm
             // 
@@ -126,10 +125,10 @@
 
         private System.Windows.Forms.Label totalChargesFormLabel;
         private System.Windows.Forms.GroupBox totalChargesGroupBox;
-        private System.Windows.Forms.Label totalLabel;
-        private System.Windows.Forms.Label selectedMealPlanLabel;
-        private System.Windows.Forms.Label selectedDromLabel;
         private System.Windows.Forms.Button goBackBtn;
         private System.Windows.Forms.Button saveBtn;
+        public System.Windows.Forms.Label totalLabel;
+        public System.Windows.Forms.Label selectedMealPlanLabel;
+        public System.Windows.Forms.Label selectedDromLabel;
     }
 }

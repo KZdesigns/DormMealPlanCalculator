@@ -61,10 +61,10 @@
             this.unlimitedRadioButton.AutoSize = true;
             this.unlimitedRadioButton.Location = new System.Drawing.Point(64, 159);
             this.unlimitedRadioButton.Name = "unlimitedRadioButton";
-            this.unlimitedRadioButton.Size = new System.Drawing.Size(197, 17);
-            this.unlimitedRadioButton.TabIndex = 2;
+            this.unlimitedRadioButton.Size = new System.Drawing.Size(194, 17);
+            this.unlimitedRadioButton.TabIndex = 8;
             this.unlimitedRadioButton.TabStop = true;
-            this.unlimitedRadioButton.Text = "Unlimited meals $1,700 per semester";
+            this.unlimitedRadioButton.Text = "Unlimited meals $1700 per semester";
             this.unlimitedRadioButton.UseVisualStyleBackColor = true;
             // 
             // fourteenMealsRadioButton
@@ -72,10 +72,10 @@
             this.fourteenMealsRadioButton.AutoSize = true;
             this.fourteenMealsRadioButton.Location = new System.Drawing.Point(64, 125);
             this.fourteenMealsRadioButton.Name = "fourteenMealsRadioButton";
-            this.fourteenMealsRadioButton.Size = new System.Drawing.Size(213, 17);
-            this.fourteenMealsRadioButton.TabIndex = 1;
+            this.fourteenMealsRadioButton.Size = new System.Drawing.Size(210, 17);
+            this.fourteenMealsRadioButton.TabIndex = 7;
             this.fourteenMealsRadioButton.TabStop = true;
-            this.fourteenMealsRadioButton.Text = "14 meals per week $1,200 per semester";
+            this.fourteenMealsRadioButton.Text = "14 meals per week $1200 per semester";
             this.fourteenMealsRadioButton.UseVisualStyleBackColor = true;
             // 
             // sevenMealRadioButton
@@ -84,7 +84,7 @@
             this.sevenMealRadioButton.Location = new System.Drawing.Point(64, 94);
             this.sevenMealRadioButton.Name = "sevenMealRadioButton";
             this.sevenMealRadioButton.Size = new System.Drawing.Size(198, 17);
-            this.sevenMealRadioButton.TabIndex = 0;
+            this.sevenMealRadioButton.TabIndex = 6;
             this.sevenMealRadioButton.TabStop = true;
             this.sevenMealRadioButton.Text = "7 meals per week $600 per semester";
             this.sevenMealRadioButton.UseVisualStyleBackColor = true;
@@ -107,10 +107,10 @@
             this.universitySuitesRadioButton.AutoSize = true;
             this.universitySuitesRadioButton.Location = new System.Drawing.Point(73, 189);
             this.universitySuitesRadioButton.Name = "universitySuitesRadioButton";
-            this.universitySuitesRadioButton.Size = new System.Drawing.Size(202, 17);
-            this.universitySuitesRadioButton.TabIndex = 3;
+            this.universitySuitesRadioButton.Size = new System.Drawing.Size(199, 17);
+            this.universitySuitesRadioButton.TabIndex = 5;
             this.universitySuitesRadioButton.TabStop = true;
-            this.universitySuitesRadioButton.Text = "University Suites $2,500 per semester";
+            this.universitySuitesRadioButton.Text = "University Suites $2500 per semester";
             this.universitySuitesRadioButton.UseVisualStyleBackColor = true;
             // 
             // farthingHallRadioButton
@@ -118,10 +118,10 @@
             this.farthingHallRadioButton.AutoSize = true;
             this.farthingHallRadioButton.Location = new System.Drawing.Point(73, 148);
             this.farthingHallRadioButton.Name = "farthingHallRadioButton";
-            this.farthingHallRadioButton.Size = new System.Drawing.Size(183, 17);
-            this.farthingHallRadioButton.TabIndex = 2;
+            this.farthingHallRadioButton.Size = new System.Drawing.Size(180, 17);
+            this.farthingHallRadioButton.TabIndex = 4;
             this.farthingHallRadioButton.TabStop = true;
-            this.farthingHallRadioButton.Text = "Farthing Hall $1,800 per semester";
+            this.farthingHallRadioButton.Text = "Farthing Hall $1800 per semester";
             this.farthingHallRadioButton.UseVisualStyleBackColor = true;
             // 
             // pikeHallRadioButton
@@ -129,10 +129,10 @@
             this.pikeHallRadioButton.AutoSize = true;
             this.pikeHallRadioButton.Location = new System.Drawing.Point(73, 106);
             this.pikeHallRadioButton.Name = "pikeHallRadioButton";
-            this.pikeHallRadioButton.Size = new System.Drawing.Size(166, 17);
-            this.pikeHallRadioButton.TabIndex = 1;
+            this.pikeHallRadioButton.Size = new System.Drawing.Size(163, 17);
+            this.pikeHallRadioButton.TabIndex = 3;
             this.pikeHallRadioButton.TabStop = true;
-            this.pikeHallRadioButton.Text = "Pike Hall $1,600 per semester";
+            this.pikeHallRadioButton.Text = "Pike Hall $1600 per semester";
             this.pikeHallRadioButton.UseVisualStyleBackColor = true;
             // 
             // allenHallRadioButton
@@ -140,10 +140,10 @@
             this.allenHallRadioButton.AutoSize = true;
             this.allenHallRadioButton.Location = new System.Drawing.Point(73, 63);
             this.allenHallRadioButton.Name = "allenHallRadioButton";
-            this.allenHallRadioButton.Size = new System.Drawing.Size(168, 17);
-            this.allenHallRadioButton.TabIndex = 0;
+            this.allenHallRadioButton.Size = new System.Drawing.Size(165, 17);
+            this.allenHallRadioButton.TabIndex = 2;
             this.allenHallRadioButton.TabStop = true;
-            this.allenHallRadioButton.Text = "Allen Hall $1,500 per semester";
+            this.allenHallRadioButton.Text = "Allen Hall $1500 per semester";
             this.allenHallRadioButton.UseVisualStyleBackColor = true;
             // 
             // studentFormLabel
@@ -160,18 +160,20 @@
             this.selectBtn.Location = new System.Drawing.Point(584, 400);
             this.selectBtn.Name = "selectBtn";
             this.selectBtn.Size = new System.Drawing.Size(75, 23);
-            this.selectBtn.TabIndex = 2;
+            this.selectBtn.TabIndex = 0;
             this.selectBtn.Text = "Select";
             this.selectBtn.UseVisualStyleBackColor = true;
+            this.selectBtn.Click += new System.EventHandler(this.selectBtn_Click);
             // 
             // exitBtn
             // 
             this.exitBtn.Location = new System.Drawing.Point(665, 400);
             this.exitBtn.Name = "exitBtn";
             this.exitBtn.Size = new System.Drawing.Size(75, 23);
-            this.exitBtn.TabIndex = 3;
+            this.exitBtn.TabIndex = 1;
             this.exitBtn.Text = "Exit";
             this.exitBtn.UseVisualStyleBackColor = true;
+            this.exitBtn.Click += new System.EventHandler(this.exitBtn_Click);
             // 
             // StudentForm
             // 
@@ -198,16 +200,16 @@
 
         private System.Windows.Forms.GroupBox mealPlanSelectionGroupBox;
         private System.Windows.Forms.GroupBox dormSelectionGroupBox;
-        private System.Windows.Forms.RadioButton unlimitedRadioButton;
-        private System.Windows.Forms.RadioButton fourteenMealsRadioButton;
-        private System.Windows.Forms.RadioButton sevenMealRadioButton;
-        private System.Windows.Forms.RadioButton universitySuitesRadioButton;
-        private System.Windows.Forms.RadioButton farthingHallRadioButton;
-        private System.Windows.Forms.RadioButton pikeHallRadioButton;
-        private System.Windows.Forms.RadioButton allenHallRadioButton;
         private System.Windows.Forms.Label studentFormLabel;
         private System.Windows.Forms.Button selectBtn;
         private System.Windows.Forms.Button exitBtn;
+        public System.Windows.Forms.RadioButton unlimitedRadioButton;
+        public System.Windows.Forms.RadioButton fourteenMealsRadioButton;
+        public System.Windows.Forms.RadioButton sevenMealRadioButton;
+        public System.Windows.Forms.RadioButton universitySuitesRadioButton;
+        public System.Windows.Forms.RadioButton farthingHallRadioButton;
+        public System.Windows.Forms.RadioButton pikeHallRadioButton;
+        public System.Windows.Forms.RadioButton allenHallRadioButton;
     }
 }
 
