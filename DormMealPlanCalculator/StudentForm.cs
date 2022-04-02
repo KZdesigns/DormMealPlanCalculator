@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace DormMealPlanCalculator
 {
-    public partial class Form1 : Form
+    public partial class StudentForm : Form
     {
-        public Form1()
+        public StudentForm()
         {
             InitializeComponent();
         }
